@@ -1,32 +1,32 @@
 {
-  "name": "html5-media-converter",
-  "description": "Converts videos and images into web-usable formats",
-  "version": "0.0.2",
-  "main": "src/Html5MediaConverter.js",
-  "homepage": "http://github.com/nknapp/html5-media-converter",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/nknapp/html5-media-converter.git"
-  },
-  "dependencies": {
-    "event-stream": "^3.1.7",
-    "exiftool": "0.0.3",
-    "fluent-ffmpeg": "^2.0.0-rc3",
-    "imagemagick-stream": "^1.1.0",
-    "process-streams": "^1.0.0",
-    "q": "^1.1.2",
-    "q-io": "^1.11.6",
-    "stream-mmmagic": "0.3.0",
-    "underscore": "^1.7.0"
-  },
-  "scripts": {
-    "test": "./node_modules/nodeunit/bin/nodeunit testsrc/"
-  },
-  "devDependencies": {
-    "long-stack-traces": "^0.1.2",
-    "nodeunit": "^0.9.0",
-    "q-debug-mode": "0.0.1",
-    "video-testdata-loader": "^1.0.0"
-  },
-  "author": "Nils Knappmeier <npm@knappi.org> (http://www.knappi.org)"
+    "name": "html5-media-converter-fixed-size",
+    "description": "Converts videos and images into web-usable formats",
+    "version": "0.0.1",
+    "main": "src/Html5MediaConverter.js",
+    "homepage": "http://github.com/nknapp/html5-media-converter",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nknapp/html5-media-converter.git"
+    },
+    "dependencies": {
+        "event-stream": "^3.1.7",
+        "exiftool": "0.0.3",
+        "fluent-ffmpeg": "^2.0.0-rc3",
+        "imagemagick-stream": "^1.1.0",
+        "process-streams": "^1.0.0",
+        "q": "^1.1.2",
+        "q-io": "^1.11.6",
+        "stream-mmmagic": "0.3.0",
+        "underscore": "^1.7.0"
+    },
+    "scripts": {
+        "test": "./node_modules/nodeunit/bin/nodeunit testsrc/"
+    },
+    "devDependencies": {
+        "long-stack-traces": "^0.1.2",
+        "nodeunit": "^0.9.0",
+        "q-debug-mode": "0.0.1",
+        "video-testdata-loader": "^1.0.0"
+    },
+    "author": "Nils Knappmeier <npm@knappi.org> (http://www.knappi.org)"
 }
